@@ -1,0 +1,27 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "description": "testing node.js with discord bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fredenck/test-Node.js.git"
+  },
+  "keywords": [
+    "discord",
+    "node.js",
+    "test"
+  ],
+  "author": "Frederick \\ <fredzhang2013@gmail.com\\> (https://fredenck.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fredenck/test-Node.js/issues"
+  },
+  "homepage": "https://github.com/Fredenck/test-Node.js#readme",
+  "dependencies": {
+    "discord.js": "^12.4.1"
+  }
+}
