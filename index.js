@@ -51,4 +51,18 @@ client.on("message", function(message) {
 });                                      
 
 
+const ReactionRole = require("reaction-role");
+const system = new ReactionRole("DISCORD_BOT_TOKEN");
+ 
+const option1 = system.createOption("<:PogChamp:779889662428577802>", "ADD_MESSAGE", "REMOVE_MESSAGE", [ "779905215636832286" ], [ "779905215636832286" ]);
+const option2 = system.createOption("🔥", "ADD_MESSAGE", "REMOVE_MESSAGE", [ "779905253776687127" ], [ "779905253776687127" ]);
+// const option3 = system.createOption("EMOJI", "ADD_MESSAGE", "REMOVE_MESSAGE", [ "ROLE_TO_ADD_ID" ], [ "ROLE_TO_REMOVE_ID" ]);
+ 
+const LIMIT = 2;
+const RESTRICTIONS = [];
+ 
+system.createMessage("780527382120366140", "779881379948134430", LIMIT, RESTRICTIONS, option1, option2);
+ 
+system.init();
+
 client.login(config.BOT_TOKEN);

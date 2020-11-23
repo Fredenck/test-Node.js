@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Fredenck/test-Node.js#readme",
   "dependencies": {
-    "discord.js": "^12.4.1"
+    "discord.js": "^12.4.1",
+    "reaction-role": "^3.1.0"
   }
 }
